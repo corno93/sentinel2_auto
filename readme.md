@@ -1,7 +1,13 @@
 # sentinel2_auto
 
-This repositry enables users to quickly automate the processing of [sentinel 2's](https://en.wikipedia.org/wiki/Sentinel-2) multispectral bands to produce [vegetation indicies](https://phenology.cr.usgs.gov/ndvi_foundation.php). 
+This repository enables users to quickly process [sentinel 2's](https://en.wikipedia.org/wiki/Sentinel-2) multispectral bands to produce [vegetation indices](https://phenology.cr.usgs.gov/ndvi_foundation.php). 
 All sentinel2 data is publically available on the [Google Cloud Platform](https://cloud.google.com/storage/docs/public-datasets/sentinel-2).
+
+For example:
+
+
+![Demo Animation](../assets/example.png?raw=true)
+
 
 
 ## How to download your data

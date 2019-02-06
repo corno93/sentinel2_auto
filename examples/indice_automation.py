@@ -8,7 +8,7 @@
         Alex Cornelio
 
     File:
-        Automate indicie generation
+        Automate indice generation
 
     Usage:
         Run this script with a PATH at a a base directory where there are subdirectories filled with sentinel2 data
