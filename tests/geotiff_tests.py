@@ -27,8 +27,8 @@ import os
 
 
 
-file = "/Users/lcornelio/code/TestData/Bristol23/sentinel2raw/tiles%2F56%2FJ%2FKN%2FS2A_MSIL1C_20171211T000241_N0206_R030_T56JKN_20171211T011407.SAFE%2FGRANULE%2FL1C_T56JKN_A012897_20171211T000430%2FIMG_DATA%2FT56JKN_20171211T000241_TCI.jp2"
-kml = "/Users/lcornelio/code/TestData/Bristol23/bristol23.kml"
+file = "test_TCI.jp2"
+kml = "test.kml"
 
 
 class TestSentinel2AutoMethods(unittest.TestCase):

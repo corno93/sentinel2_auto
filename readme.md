@@ -9,6 +9,7 @@ For example:
 ![Demo Animation](../assets/example.png?raw=true)
 
 
+Here Sentinel2's TCI image is on the left, the middle is NDVI and the right is NDRE.
 
 ## How to download your data
 
