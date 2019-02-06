@@ -9,7 +9,7 @@ For example:
 ![Demo Animation](../assets/example.png?raw=true)
 
 
-Here Sentinel2's TCI image is on the left, the middle is NDVI and the right is NDRE.
+Here Sentinel2's TCI image is on the left, the middle is [NDVI](https://en.wikipedia.org/wiki/Normalized_difference_vegetation_index) and the right is [NDRE](https://en.wikipedia.org/wiki/Normalized_Difference_Red_Edge_Index).
 
 ## How to download your data
 
