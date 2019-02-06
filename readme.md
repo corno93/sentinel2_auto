@@ -14,7 +14,7 @@ Here Sentinel2's TCI image is on the left, the middle is [NDVI](https://en.wikip
 ## How to download your data
 
 - Create kml of the area of land you wish to inspect. This can easily be done using Google Earth Pro.
-- Knowing the latitude and longtitude of your area, figure out the UTM and MGRS coordinates. Simply do this by using this [site](http://www.legallandconverter.com/p50.html)
+- Knowing the latitude and longtitude of your area, figure out the UTM and MGRS coordinates. Do this by using this [site](http://www.legallandconverter.com/p50.html)
 - Download the sentinel 2 tiles for your desired date by using this [site](https://console.cloud.google.com/storage/browser/gcp-public-data-sentinel-2/tiles). Ensure you have followed the correct tile formatting of ```/tiles/[UTM_ZONE]/[LATITUDE_BAND]/[GRID_SQUARE]/[GRANULE_ID]/...```. Here ```GRID_SQUARE``` and ```GRANDULE_ID``` are from the MGRS coordinate system.
 
 
@@ -30,7 +30,7 @@ Here Sentinel2's TCI image is on the left, the middle is [NDVI](https://en.wikip
 
 See the examples/sentinel2_process.py script as an example.
 
-Simply run this script (in your python environment) by: ```python sentinel2_process.py```
+Run this script (in your python environment) by: ```python sentinel2_process.py```
 
 
 Additionally, automate generating indicies for several sets of data using the examples/sentinel2_automation.py script. 
