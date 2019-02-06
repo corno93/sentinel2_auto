@@ -44,7 +44,7 @@ class TestSentinel2AutoMethods(unittest.TestCase):
         self.coloured_path = os.path.join(os.getcwd(), 'coloured.tif')
 
     
-    def test_a_resample(self):
+    def test_resample(self):
         """
             Test the resampling
         """
@@ -54,7 +54,7 @@ class TestSentinel2AutoMethods(unittest.TestCase):
 
 
 
-    def test_c_reprojecting(self):
+    def test_reprojecting(self):
         """
             Test the reprojecting. Reproject to UTM for convienence and check that utm_proj flag was set to True
         """
@@ -65,7 +65,7 @@ class TestSentinel2AutoMethods(unittest.TestCase):
 
 
 
-    def test_d_kml_cut(self):
+    def test_kml_cut(self):
         """
             Ensuring the kml cutting works
         """
@@ -82,7 +82,7 @@ class TestSentinel2AutoMethods(unittest.TestCase):
          
 
 
-    def test_e_georeferencing_and_saving(self):
+    def test_georeferencing_and_saving(self):
         """
             Test georeferencing some non geo data and saving it
         """
@@ -97,7 +97,7 @@ class TestSentinel2AutoMethods(unittest.TestCase):
         self.assertTrue(geoImg.geo_referenced)
 
 
-    def test_f_colourscale(self):
+    def test_colourscale(self):
         """
             Apply a colourscale to the black and white band and save it and check georeferencing
         """
